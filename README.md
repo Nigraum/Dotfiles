@@ -4,6 +4,7 @@
 
 ## Contents
 
+- oh-my-zsh config
 - vim (NeoVim) config
   - Plugins are managed with [vim-plug](https://github.com/junegunn/vim-plug)
   
