@@ -1,0 +1,114 @@
+{
+        "workbench.colorTheme": "Omni",
+        "workbench.iconTheme": "material-icon-theme",
+
+        "terminal.integrated.fontSize": 14,
+        "editor.tabSize": 2,
+        "editor.fontSize": 18,
+        "editor.lineHeight": 24,
+        "editor.fontFamily": "Fira Code",
+        "editor.fontLigatures": true,
+        "explorer.compactFolders": false,
+        "editor.renderLineHighlight": "gutter",
+        "workbench.editor.labelFormat": "short",
+        "extensions.ignoreRecommendations": true,
+        "javascript.updateImportsOnFileMove.enabled": "never",
+        "typescript.updateImportsOnFileMove.enabled": "never",
+        "breadcrumbs.enabled": true,
+        "editor.rulers": [100, 140],
+
+        "eslint.validate": [
+            {
+                "language": "javascript",
+                "autoFix": true,
+            },
+            {
+                "language": "javascriptreact",
+                "autoFix": true,
+            },
+            {
+                "language": "typescript",
+                "autoFix": true,
+            },
+            {
+                "language": "typescriptreact",
+                "autoFix": true,
+            },
+        ],
+
+        "[javascript]": {
+            "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true,
+            }
+        },
+        "[javascriptreact]": {
+            "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true,
+            }
+        },
+        "[typescript]": {
+            "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true,
+            }
+        },
+        "[typescriptreact]": {
+            "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true,
+            }
+        },
+        "workbench.startupEditor": "newUntitledFile",
+        "diffEditor.ignoreTrimWhitespace": false,
+         "material-icon-theme.folders.associations": {
+            "infra": "app",
+            "entities": "class",
+            "schemas": "class",
+            "typeorm": "database",
+            "http": "container",
+            "migrations": "tools",
+            "modules": "components",
+            "implementations": "core",
+            "dtos": "typescript",
+            "fakes": "mock",
+        },
+        "material-icon-theme.files.associations": {
+            "ormconfig.json": "database",
+            "tsconfig.json": "tune"
+        },
+        "explorer.confirmDragAndDrop": false,
+        "liveServer.settings.donotShowInfoMsg": true,
+            // Efeito do cursos piscando
+        "editor.cursorBlinking": "expand",
+            // Efeito de navegação em 200FPS
+        "editor.cursorSmoothCaretAnimation": true,
+        "security.workspace.trust.untrustedFiles": "newWindow",
+        "rpc.detailsEditing": "Hello There :)",
+        "rpc.detailsViewing": "",
+        "rpc.lowerDetailsEditing": "Para de me stalkear :(",
+        "window.zoomLevel": -1,
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "source": "PowerShell",
+                "icon": "terminal-powershell"
+            },
+            "Command Prompt": {
+                "path": [
+                    "${env:windir}\\Sysnative\\cmd.exe",
+                    "${env:windir}\\System32\\cmd.exe"
+                ],
+                "args": [],
+                "icon": "terminal-cmd"
+            },
+            "Git Bash": {
+                "source": "Git Bash"
+            },
+            "Ubuntu (WSL)": {
+                "path": "C:\\Windows\\System32\\wsl.exe",
+                "args": [
+                    "-d",
+                    "Ubuntu"
+                ]
+            }
+        },
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "editor.formatOnSave": true
+      }
