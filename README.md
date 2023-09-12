@@ -15,3 +15,7 @@ Requires Neovim (>= 0.5)
 
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
+
+## Vscode
+
+- [celestial-theme](apvarun.celestial) - VS Code theme for all the people who love to code in deep dark spaces.  
