@@ -18,4 +18,4 @@ Requires Neovim (>= 0.5)
 
 ## Vscode
 
-- [celestial-theme](apvarun.celestial) - VS Code theme for all the people who love to code in deep dark spaces.  
+- [celestial-theme](https://marketplace.visualstudio.com/items?itemName=apvarun.celestial) - VS Code theme for all the people who love to code in deep dark spaces.  
